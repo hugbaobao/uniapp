@@ -51,7 +51,7 @@ export default {
           },
         })
         this.songList = res.result.songs
-        console.log(this.songList)
+        // console.log(this.songList)
       }, 500)
     },
     ToAudio(id) {
