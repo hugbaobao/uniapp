@@ -1,0 +1,55 @@
+{
+	"pages": [
+		{
+			"path": "pages/find/index",
+			"style": {
+				"navigationBarTitleText": "发现"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/search/Search",
+			"style": {
+				"navigationBarTitleText": "搜索歌曲"
+			}
+		},
+		{
+			"path": "pages/audio/Audio",
+			"style": {
+				"navigationBarTitleText": "播放中"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "云音乐",
+		"navigationBarBackgroundColor": "#d81e06",
+		"backgroundColor": "#F7F7F7"
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#d81e06",
+		"backgroundColor": "#fff",
+		"position": "bottom",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/find/index",
+				"text": "发现",
+				"iconPath": "./static/icon/find.png",
+				"selectedIconPath": "./static/icon/find-s.png"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"text": "我的",
+				"iconPath": "./static/icon/my.png",
+				"selectedIconPath": "./static/icon/my-s.png"
+			}
+		]
+	}
+}
